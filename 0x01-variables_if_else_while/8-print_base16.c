@@ -8,19 +8,18 @@
  */
 int main(void)
 {
-	unsigned char a = '0';
-	int i;
+	int n = '0';
+	int a_to_f = 'a';
 
-	for (i = '0'; i < 10; i++)
+	while (n <= '9')
 	{
-		putchar(a);
-		a++;
+		putchar(n);
+		n++;
 	}
-	a = '1';
-	for (i = '0'; i < 6; i++)
+	while (a_to_f <= 'f')
 	{
-		putchar('0' + a);
-		a++;
+		putchar(a_to_f);
+		a_to_f++;
 	}
 	putchar('\n');
 	return (0);
