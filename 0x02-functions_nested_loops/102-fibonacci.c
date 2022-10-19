@@ -16,10 +16,10 @@ int main(void)
 		printf("%li %li ", a, b);
 		a += b;
 		b += a;
+		printf(", ");
 	}
 	if (countto % 2 == 1)
 		printf("%li", a);
-	printf(", ");
 	printf("\n");
 	return (0);
 }
